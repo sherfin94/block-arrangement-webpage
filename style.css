@@ -3,6 +3,9 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-size: 50px;
+  font-family: fantasy;
+  color: #DC143C;
 }
 
 .container {
@@ -13,50 +16,59 @@ html, body {
   padding: 0;
 }
 
+.block {
+  box-sizing: border-box;
+  position: absolute;
+  word-wrap: break-word;
+  overflow: auto;
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+}
+
 .top-left {
   position: absolute;;
   left: 0;
   display: inline-block;
-  width: 20%;
-  height: 20%;
-  background-color: lightgreen;
+  width: 50%;
+  height: 50%;
+  background-color: #AAF200;
 }
 
 .top-right {
-  position: absolute;;
+  text-align: right;
   right: 0;
-  display: inline-block;
-  width: 20%;
-  height: 20%;
-  background-color: lightgreen;
+  background-color: #FFCF75;
 }
 
 .center-box {
-  position: absolute;;
-  left: 40%;
-  bottom: 40%;
-  display: inline-block;
-  width: 20%;
-  height: 20%;
-  background-color: lightgreen;
+  bottom: 25%;
+  left: 25%;
+  background-color: #00BFFF;
+  z-index: 10;
 }
 
 .bottom-left {
-  position: absolute;;
   left: 0;
   bottom: 0;
-  display: inline-block;
-  width: 20%;
-  height: 20%;
-  background-color: lightgreen;
+  background-color: #FF8000;
+  text-align: left;
 }
 
 .bottom-right {
-  position: absolute;;
+  text-align: right;
   right: 0;
   bottom: 0;
   display: inline-block;
-  width: 20%;
-  height: 20%;
   background-color: lightgreen;
+}
+
+.filler {
+  display:inline-block;
+  position: relative;
+  width: 50%;
+  height: 50%;
+  right:0;
+  top: 0;
+  z-index: -1;
 }
