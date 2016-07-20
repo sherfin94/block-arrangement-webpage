@@ -1,0 +1,62 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.top-left {
+  position: absolute;;
+  left: 0;
+  display: inline-block;
+  width: 20%;
+  height: 20%;
+  background-color: lightgreen;
+}
+
+.top-right {
+  position: absolute;;
+  right: 0;
+  display: inline-block;
+  width: 20%;
+  height: 20%;
+  background-color: lightgreen;
+}
+
+.center-box {
+  position: absolute;;
+  left: 40%;
+  bottom: 40%;
+  display: inline-block;
+  width: 20%;
+  height: 20%;
+  background-color: lightgreen;
+}
+
+.bottom-left {
+  position: absolute;;
+  left: 0;
+  bottom: 0;
+  display: inline-block;
+  width: 20%;
+  height: 20%;
+  background-color: lightgreen;
+}
+
+.bottom-right {
+  position: absolute;;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  width: 20%;
+  height: 20%;
+  background-color: lightgreen;
+}
